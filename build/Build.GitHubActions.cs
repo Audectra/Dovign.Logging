@@ -1,5 +1,10 @@
 ﻿using Nuke.Common.CI.GitHubActions;
 
+[GitHubActions("Dovign.Logging-CI",
+    GitHubActionsImage.UbuntuLatest,
+    OnPushBranches = ["main"],
+    InvokedTargets = [nameof(Compile)])]
+
 [GitHubActions("Dovign.Logging-PR",
     GitHubActionsImage.UbuntuLatest,
     OnPullRequestBranches = ["main", "releases/**"],
