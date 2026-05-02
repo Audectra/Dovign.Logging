@@ -16,7 +16,7 @@ dotnet add package Dovign.Logging
 
 ## Usage
 ### Initialization
-To initialize the static log manager, simple call the extension method `` on an initalized service provider.
+To initialize the static log manager, simple call the extension method `InitializeDovignLogging` on an initalized service provider.
 
 Example initialization within an ASP.NET Core application:
 
@@ -28,7 +28,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 // Initialize the static log manager. 
-app.Services.InitializeLogging();
+app.Services.InitializeDovignLogging();
 ```
 Thats it, you can now easily retrieve a logger instance when required.
 

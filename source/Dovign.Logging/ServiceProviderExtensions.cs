@@ -5,7 +5,7 @@ namespace Dovign.Logging;
 
 public static class ServiceProviderExtensions
 {
-    public static IServiceProvider InitializeLogging(this IServiceProvider services)
+    public static IServiceProvider InitializeDovignLogging(this IServiceProvider services)
     {
         LogManager.Current.Factory = services.GetRequiredService<ILoggerFactory>();
         return services;
