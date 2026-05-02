@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Build/">
+    <Project Path="build/_build.csproj" />
+  </Folder>
+  <Project Path="source/Dovign.Logging/Dovign.Logging.csproj" />
+</Solution>
