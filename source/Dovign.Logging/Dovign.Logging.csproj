@@ -9,13 +9,17 @@
 
         <!-- Package information -->
         <Authors>Audectra</Authors>
-        <Description>Simple static LogManager for Microsoft.Extensions.Logging.</Description>
+        <Description>
+            Dovign.Logging provides a lightweight static log manager extension for the common logging framework 
+            Microsoft.Extensions.Logging. This allows for a simplified retrieval of a logger instance from anywhere 
+            within the application, without the need to pass it around as a parameter.
+        </Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageProjectUrl>https://www.audectra.com/</PackageProjectUrl>
         <RepositoryUrl>https://github.com/Audectra/Dovign.Logging</RepositoryUrl>
         <PackageTags>dovign, logging, log manager, logmanager</PackageTags>
         <PackageIcon>icon.png</PackageIcon>
-        <Version>0.1.0</Version>
+        <Version>1.0.0</Version>
     </PropertyGroup>
 
     <ItemGroup>
